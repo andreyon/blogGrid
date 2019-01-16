@@ -1,9 +1,19 @@
+@font-face {
+  font-family: 'hans_kendrick_3regular';
+  src: url('../fonts/hanskendrick-regular-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 body {
   padding: 90px 0;
   margin: 0;
-  font-size: 14px;
   min-height: 100vh;
   background-color: #e2e7ec;
+  font-family: 'hans_kendrick_3regular', Arial;
+  font-size: 13px;
+  line-height: 30px;
 }
 
 img {
@@ -19,6 +29,16 @@ img {
 
 h1, h2, h3, h4 {
   margin: 0;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 30px;
 }
 
 a {
@@ -53,6 +73,7 @@ p {
   left: 24px;
   color: white;
   text-transform: uppercase;
+  padding-right: 250px;
 }
 
 .flex-item:not(.big-item) {
@@ -64,8 +85,13 @@ p {
   background-color: #ffffff;
 }
 
+.date {
+  min-height: 30px;
+}
+
 .bottom-info {
-  padding: 28px;
+  padding: 15px 28px 0;
+  text-transform: uppercase;
 }
 
 .bottom-image {

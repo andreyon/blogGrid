@@ -1,0 +1,88 @@
+body {
+  padding: 90px 0;
+  margin: 0;
+  font-size: 14px;
+  min-height: 100vh;
+  background-color: #e2e7ec;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.flex-container {
+  display: flex;
+  width: 1120px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.big-item {
+  position: relative;
+  margin: 10px 0;
+}
+
+.big-item .bottom-text {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.flex-item:not(.big-item) {
+  /*flex-shrink: 2;*/
+  position: relative;
+  flex: 0 0 360px;
+  height: 540px;
+  margin: 10px 0;
+  background-color: #ffffff;
+}
+
+.bottom-info {
+  padding: 28px;
+}
+
+.bottom-image {
+  position: absolute;
+  bottom: 28px;
+}
+
+
+
+
+
+
+
+
+/*
+во флексе
+нельзя флотить детей
+
+релятив можно
+*/
